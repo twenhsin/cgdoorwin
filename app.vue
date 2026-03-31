@@ -4,7 +4,10 @@
     <!-- ── Navbar ────────────────────────────────────────── -->
     <header class="sticky top-0 z-50 bg-white/95 backdrop-blur shadow-sm">
       <div class="max-w-6xl mx-auto px-5 h-16 flex items-center justify-between">
-        <span class="font-bold text-navy-900 text-base sm:text-lg tracking-wide">鋮鋼鋁門窗工程行</span>
+        <div class="flex items-center gap-2">
+          <img src="/images/logo.svg" alt="鋮鋼鋁門窗工程行" class="h-8 w-auto" />
+          <span class="font-bold text-navy-900 text-base sm:text-lg tracking-wide">鋮鋼鋁門窗工程行</span>
+        </div>
         <a href="#contact"
            class="bg-navy-900 text-white text-sm px-5 py-2 rounded hover:bg-[#142347] transition-colors">
           聯絡我們

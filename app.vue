@@ -194,6 +194,40 @@
 </template>
 
 <script setup lang="ts">
+useHead({
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'LocalBusiness',
+        name: '鋮鋼鋁門窗工程行',
+        description: '專業鋁門窗、防盜窗、採光罩、電動捲門安裝',
+        url: 'https://cgdoorwin.vercel.app/',
+        telephone: '0909-085-599',
+        address: {
+          '@type': 'PostalAddress',
+          streetAddress: '景平路309號',
+          addressLocality: '中和區',
+          addressRegion: '新北市',
+          addressCountry: 'TW',
+        },
+        geo: {
+          '@type': 'GeoCoordinates',
+          latitude: 24.99843,
+          longitude: 121.49745,
+        },
+        openingHoursSpecification: {
+          '@type': 'OpeningHoursSpecification',
+          dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+          opens: '08:00',
+          closes: '18:00',
+        },
+      }),
+    },
+  ],
+})
+
 const products = [
   {
     name: '鋁門窗',

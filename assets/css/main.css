@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy-950: #111c3d;
+  --color-navy-900: #1b2d5f;
+  --color-navy-800: #213570;
+  --color-brand-orange: #e8931c;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: 'Noto Sans', sans-serif;
+  }
+}

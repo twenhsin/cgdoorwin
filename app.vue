@@ -35,7 +35,7 @@
         <div class="relative">
           <div class="aspect-[5/4] rounded-2xl overflow-hidden shadow-xl bg-gray-200">
             <img
-              src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=900&q=80"
+              src="/images/hero.png"
               alt="專業鋁門窗"
               class="w-full h-full object-cover"
               loading="eager"
@@ -195,7 +195,7 @@ const products = [
   {
     name: '鋁門窗',
     desc: '客製化多色烤漆，多色烤漆工法，結合卓越抗老性與彈性配搭能能。',
-    img: 'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=600&q=80',
+    img: '/images/aluminum-doors.png',
   },
   {
     name: '不鏽鋼防盜門窗',
